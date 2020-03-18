@@ -1,9 +1,17 @@
 <template>
-  <h1>Event Listing</h1>
+  <div>
+    <h1>Event Listing</h1>
+    <EventCard></EventCard>
+  </div>
 </template>
 
 <script>
-export default {};
+import EventCard from '@/components/EventCard.vue';
+export default {
+  components: {
+    EventCard
+  }
+};
 </script>
 
 <style></style>

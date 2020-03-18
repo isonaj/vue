@@ -1,10 +1,10 @@
 <template>
-  <h1>Event Details for #{{ eventId }}</h1>
+  <h1>Event Details for #{{ id }}</h1>
 </template>
 
 <script>
 export default {
-  props: ['eventId']
+  props: ['id']
 };
 </script>
 
