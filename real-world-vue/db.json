@@ -44,6 +44,60 @@
       "date": "2019-02-02T23:27:00.000Z",
       "time": "1:00",
       "attendees": []
+    },
+    {
+      "id": 724751,
+      "user": {
+        "id": "123abc",
+        "name": "Anthony Ison"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "123abc",
+        "name": "Anthony Ison"
+      },
+      "title": "Plant Trees",
+      "description": "Planting some trees",
+      "location": "the forest",
+      "date": "2020-03-11T04:28:00.000Z",
+      "time": "9:00",
+      "attendees": []
+    },
+    {
+      "id": 684953,
+      "user": {
+        "id": "123abc",
+        "name": "Anthony Ison"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "123abc",
+        "name": "Anthony Ison"
+      },
+      "title": "test",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 694807,
+      "user": {
+        "id": "123abc",
+        "name": "Anthony Ison"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "123abc",
+        "name": "Anthony Ison"
+      },
+      "title": "test",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
