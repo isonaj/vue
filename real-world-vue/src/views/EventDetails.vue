@@ -29,16 +29,18 @@
 </template>
 
 <script>
-import { mapState } from 'vuex';
+import { mapState, mapActions } from 'vuex';
 
 export default {
   props: ['id'],
+  created() {
+    //this.loadEvent(this.id);
+    this.$store.dispatch('event/loadEvent', this.id);
+  },
   computed: mapState({
     event: state => state.event.event
   }),
-  created() {
-    this.$store.dispatch('loadEvent', this.id);
-  }
+  methods: mapActions(['event/loadEvent'])
 };
 </script>
 

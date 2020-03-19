@@ -30,7 +30,7 @@ export default {
     EventCard
   },
   created() {
-    this.$store.dispatch('loadEvents', { perPage: 3, page: this.page });
+    this.$store.dispatch('event/loadEvents', { perPage: 3, page: this.page });
   },
   computed: {
     page() {
