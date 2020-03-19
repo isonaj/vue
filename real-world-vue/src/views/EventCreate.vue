@@ -86,7 +86,7 @@ export default {
     },
     createFreshEvent() {
       const id = Math.floor(Math.random() * 1000000);
-      const user = this.$store.state.user;
+      const user = this.$store.state.user.user;
 
       return {
         id,
