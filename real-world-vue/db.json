@@ -98,6 +98,24 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 583926,
+      "user": {
+        "id": "123abc",
+        "name": "Anthony Ison"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "123abc",
+        "name": "Anthony Ison"
+      },
+      "title": "test",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
